@@ -3,3 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body, .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+}
+
+#simon_sais{
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+}
