@@ -9,6 +9,7 @@ body, .container{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 .container{
@@ -17,8 +18,13 @@ body, .container{
     height: 1000px;
 }
 
-#simon_sais{
+#simon_sais, #user_sais{
     font-size: 50px;
     font-weight: bold;
     display: block;
+}
+
+div{
+    display: block;
+    margin: 20px 0px;
 }
